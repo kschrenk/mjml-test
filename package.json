@@ -1,0 +1,16 @@
+{
+  "name": "mjml",
+  "version": "1.0.0",
+  "description": "A test env for mjml.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "./node_modules/mjml/bin/mjml ./templates/index.mjml -o ./output/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.12.0"
+  }
+}
