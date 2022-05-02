@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "build": "./node_modules/mjml/bin/mjml ./templates/index.mjml -o ./output/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/mjml/bin/mjml ./templates/index.mjml -o ./output/index.html"
   },
   "author": "",
   "license": "ISC",
